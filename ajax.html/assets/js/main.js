@@ -10,5 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
             taskInput.vale = '';
         }
     });
+
+    function addTask(task) {
+        const li = document.createElement('li');
+        li.textContent = task;
+        taskList.appendChild(li); 
+    }
 })
   
