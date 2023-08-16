@@ -1,2 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+}
   
